@@ -1,0 +1,74 @@
+
+/*
+#mainNav
+{display:block;width:100%;background-color:#fff;position:fixed;z-index:1000;height:100%;top:-100%;left:0;opacity:0;-webkit-transition:all .4s ease;transition:all .4s ease}
+
+#mainNav a{font-weight:300}
+
+.mainNav a{display:block}
+.mainNav ul{max-height:0;transition:max-height .5s ease-out;overflow:hidden;position:static;list-style:none;padding:0}
+.mainNav li{display:block;margin:0;position:relative}
+.mainNav .openSub{position:absolute;top:0;right:6px;cursor:pointer;width:3em;z-index:5;text-align:center}
+.mainNav .openSub:before{content:"+";color:#000;font-size:2em;line-height:1.5em}
+.mainNav .activeSub>ul{max-height:2500px}
+.mainNav .activeSub>.openSub:before{content:"-";color:#808080}
+body.menuActive{position:fixed}
+body.menuActive #mainNav{top:0;right:0;opacity:1;overflow:auto;padding-top:40px}
+body.menuActive #mainNav a{display:block;padding:1em 20px;line-height:1em}
+body.menuActive #mainNav li{display:block;border-bottom:solid 1px #eee}
+body.menuActive #mainNav .mainNav ul a{padding-left:40px;background-color:#fff}
+body.menuActive #mainNav .mainNav ul li:last-child{border:none}
+body.menuActive #mainNav .mainNav ul ul li a{padding-left:60px}
+body.menuActive #mainNav .mainNav ul ul ul li a{padding-left:80px}
+body.menuActive #mainNav .navbar-toggle{margin-top:2px}
+body.menuActive #mainNav .navbar-toggle:before{content:'b'}
+body.menuActive #slNav,body.menuActive #internNav{margin:40px 0}
+body.menuActive #slNav li:last-child,body.menuActive #internNav li:last-child{border:none}
+*/
+
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+#content{
+  padding-left: 1%;
+  padding-right:1%;
+}
+
+.post_wrap-link{
+  text-decoration:none;
+  display:block;
+}
+
+.post-wrap{
+  background:#f9f9f9;
+  font-size:1em;
+  text-decoration:none;
+  padding:5px 20px 5px 20px;
+}
+
+.post-wrap:hover{
+  background:#EEEEEE;
+}
+
+.read_more{
+  font-family: 'hsma-symbols';
+    content: 'd';
+    font-weight: bold;
+    font-size: 1em;
+    margin-left: 5px;
+}
+
+h4{
+  font-size: 1em;
+  font-weight:700;
+}
+
+.category{
+  font-weight:300;
+}
+
+.post-inhalt{
+  padding-left: 0px;
+  padding-right: 0px;
+}
